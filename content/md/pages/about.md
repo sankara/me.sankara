@@ -1,8 +1,15 @@
 {:title "About"
- :layout :page
- :page-index 0
- :navbar? true}
+:layout :page
+:page-index 0
+:navbar? true}
 
-## Write something about something
+Hello,
 
-wow wow wow
+Welcome to my book summaries. This is shamelessly for me and me only.
+The goal is to summarise key learnings of the books I read.
+
+``` clojure
+(if useful?
+   :great
+   :kindly-move-on)
+```
