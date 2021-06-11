@@ -1,4 +1,5 @@
-{:title "Summary of Children of time" :layout :post :date "2020-01-15" :tags ["fiction" "summary"] :author "Sankara"}
+{:title "Summary of Children of time" :layout :post :date "2020-01-15" :tags 
+["fiction" "summary"  "wordsmith"] :author "Sankara"}
 
 ## Children of time by Adrian Tchaikovsky
 

@@ -1,4 +1,5 @@
-{:title "Summary of Radical Acceptance" :layout :post :date "2020-01-10" :tags ["self-help" "summary"] :author
+{:title "Summary of Radical Acceptance" :layout :post :date "2020-01-10" 
+:tags ["self-help" "summary"  "wordsmith"] :author
  "Sankara"}
 
 

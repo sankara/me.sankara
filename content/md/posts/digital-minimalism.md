@@ -1,7 +1,7 @@
 { :title "Summary of Digital Minimalism" 
   :layout :post 
   :date "2020-08-23" 
-  :tags ["self-help" "summary" "tech-addiction"] 
+  :tags ["self-help" "summary" "tech-addiction"  "wordsmith"] 
   :author "Sankara"}
   
 --------------------------------------------------------------------------------  

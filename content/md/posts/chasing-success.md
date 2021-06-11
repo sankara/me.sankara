@@ -1,7 +1,7 @@
 {:title "Chasing Success"
 :layout :post
 :date "2021-03-03"
-:tags ["blog" "personal"]
+:tags ["blog" "personal" "wordsmith"]
 :author "Sankara"}
 
 Human brain has evolved to being lazy [\[1\]](#ref1). It's the natural state of
