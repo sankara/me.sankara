@@ -4,11 +4,12 @@
 :tags ["blog" "personal" "gardening"]
 :author "Sankara"}
 
-The past weekend, with a little help from my friends, I started a vegetable 
-garden in my backyard. It's been a really long time since I did anything 
-similar. The choice of what to plant was almost a lottery pick. Maybe next 
-time I'll learn to identify what makes sense to grow and what to buy instead.
-Here are the first sprouts of some of them.
+The past weekend,
+[with a little help from my friends](https://songwhip.com/the-beatles/with-a-little-help-from-my-friends)
+, I started a vegetable garden in my backyard. It's been a really long time
+since I did anything similar. The choice of what to plant was almost a lottery
+pick. Maybe next time I'll learn to identify what makes sense to grow and what
+to buy instead. Here are the first sprouts of some of them.
 
 ### Carrot
 
@@ -20,7 +21,8 @@ Here are the first sprouts of some of them.
 
 ### Heirloom Cherry Tomato
 
-<img src="/img/gardening/heirloom-cherry-tomato.jpg" alt="Heirloom Cherry Tomato" 
+<img src="/img/gardening/heirloom-cherry-tomato.jpg" alt="Heirloom Cherry
+Tomato"
 width="100%"/>
 
 ### Kohlrabi
@@ -57,7 +59,7 @@ width="100%"/>
 
 ### Romaine Lettuce
 
-<img src="/img/gardening/romaine-lettuce.jpg" alt="Romaine Lettuce" 
+<img src="/img/gardening/romaine-lettuce.jpg" alt="Romaine Lettuce"
 width="100%"/>
 
 ### Tomato
@@ -72,6 +74,5 @@ width="100%"/>
 
 <img src="/img/gardening/unknown-carrot-basil.jpg" alt="Carrot/Basil/Tomato"
 width="100%"/>
-
 
 Will share the progress and learnings.
