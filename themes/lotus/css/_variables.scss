@@ -11,9 +11,14 @@ $light-grey: #ccc;
 $very-light-grey: #fbfbfb;
 $white: #fff;
 
-$base-color: $purple;
-$base-font-color: $very-dark-grey;
-$body-bgcolor: $very-light-grey;
+
+
+$base-color: #ff4532;
+$base-font-color: #d3d1d1;
+$body-bgcolor: #000;
+$accent-color: $base-color;
+$anchor-color: lighten(scale_color($base-color, $saturation: 10%), 10%);
+
 
 // Fonts
 $font-weight-light: 300;
@@ -28,9 +33,10 @@ $button-font-size: 14px;
 
 
 
-$default-font-family: Oxygen, Tahoma, Verdana, Helvetica, Arial, sans-serif;
-$wide-font-family: Montserrat, sans-serif;
-$mono-font-family: Inconsolata, Consolas, "Deja Vu Sans Mono", "Bitstream Vera Sans Mono", "Droid Sans Mono", "Andale Mono", Anonymous, "Monaco", monospaced;
+$default-font-family: 'Source Sans Pro', sans-serif;
+$wide-font-family: 'Source Serif Pro', serif;
+$mono-font-family: 'Inconsolata', monospace;
+$bq-font-family: 'Open Sans', serif;
 
 // Borders
 $default-border-color: $base-color;

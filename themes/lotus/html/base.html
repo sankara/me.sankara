@@ -9,16 +9,32 @@
         {% endblock %}
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:300,400,700|Inconsolata" rel="stylesheet">
+
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/img/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
         {% style "css/normalize.css" %}
         {% style "css/blog.css" %}
         {% style "css/lotus-highlightjs.min.css" %}
+        {% style "css/solarized-dark.css" %}
     </head>
     <body>
         <aside id="sidebar">
             <div id="logo">
                 <a title="{{title}}" href="{{index-uri}}">
-                    <img class="icon" src="{{blog-prefix}}/img/white-lotus.svg">
+                    <img class="icon" src="{{blog-prefix}}/img/byte.svg">
                     <div class="text desktop-and-tablet-only">{{title}}</div>
                     <div class="text mobile-only">{{title}}</div>
                 </a>
@@ -47,8 +63,7 @@
 
                 <nav id="socialmedia">
                     <ul>
-                        <li><a title="LinkedIn" href="https://www.linkedin.com/in/matthewdavidson1" rel="external"><svg class="icon icon-linkedin"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-linkedin"></use></svg></a></li>
-                        <li><a title="GitHub" href="https://github.com/KingMob" rel="external"><svg class="icon icon-github-circled"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-github-circled"></use></svg></a></li>
+                        <li><a title="GitHub" href="https://github.com/sankara" rel="external"><svg class="icon icon-github-circled"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-github-circled"></use></svg></a></li>
                         <li><a title="RSS Feed" href="{{rss-uri}}"><svg class="icon icon-rss-squared"><use xlink:href="{{blog-prefix}}/img/icons.svg#icon-rss-squared"></use></svg></a></li>
                     </ul>
                 </nav>
@@ -63,6 +78,11 @@
                 Copyright &copy; {{today|date:yyyy}} {{author}}
                 <br>Powered by <a href="http://cryogenweb.org">Cryogen</a>
                 <br>Theme by <a href="http://github.com/KingMob">KingMob</a>
+                <br><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <br>
+                <a href='https://ipv6-test.com/validate.php?url=referer' target="_blank">
+                    <img src='https://ipv6-test.com/button-ipv6-80x15.png' alt='ipv6 ready' title='ipv6 ready' border='0' />
+                </a>
             </div>
         </article>
 
