@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  www:
+    image: nginx:alpine
+    ports:
+      - 8080:80
+    volumes:
+      - ./public:/var/www/
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      VIRTUAL_HOST: sankara.me
+      VIRTUAL_PORT: 8080
+      ENABLE_IPV6: "true"
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
