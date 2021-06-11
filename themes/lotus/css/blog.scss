@@ -122,6 +122,9 @@ img {
 
     a {
       text-decoration: none;
+      display: table;
+      width: 100%;
+      caption-side: bottom;
     }
   }
 }
