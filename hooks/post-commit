@@ -1,0 +1,11 @@
+#!/bin/zsh
+set -x
+
+enabled="$(git config --bool hooks.post-commit.enabled)"
+
+if $enabled; then
+  lein run
+  git add public
+  git -c "hooks.post-commit.enabled=false" commit -m"Generating static site"
+fi
+
