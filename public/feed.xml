@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><atom:link href="https://sankara.me/" rel="self" type="application/rss+xml"/><title>Yet Another Blog: Sankara</title><link>https://sankara.me/</link><description>An exercise in futility</description><lastBuildDate>Fri, 11 Jun 2021 23:05:17 -0700</lastBuildDate><generator>clj-rss</generator><item><guid>https://sankara.me/2021-06-11-gardening-start/</guid><link>https://sankara.me/2021-06-11-gardening-start/</link><title>Starting a garden</title><description>The past weekend,
+with a little help from my friends
+, I started a vegetable garden in my backyard. It's been a really long time
+since I did anything similar. The choice of what to plant was almost a lottery
+pick. Maybe next time I'll learn to identify what makes sense to grow and what
+to buy instead. Here are the first sprouts of some of them.CarrotCauliflower</description><author>Sankara</author><pubDate>Fri, 11 Jun 2021 00:00:00 -0700</pubDate></item><item><guid>https://sankara.me/chasing-success/</guid><link>https://sankara.me/chasing-success/</link><title>Chasing Success</title><description>Human brain has evolved to being lazy [1]. It's the natural state of
+things. It is also more likely than not you're average - it's the very
+definition of it. In our society, neither of this is adequate.Personally, there's a huge correlation between the rise of social media and the
+feeling of inadequacy. Are you adequate in life? Are you married? Do you have a
+wife? Do you own a home? Do you have kids? Are you a good parent to your kids?
+Do you have friends? Are you a good friend? How many life skills do you know?
+How many do you excel at? Can you cook? Do you read? How many books do you read
+a year/week? Do you travel? How many countries have you travelled to? Are you a
+manager yet? Do you love programming? Do you contribute to open-source? Are you
+keeping yourself up to date with technology?We have become this society where it's not enough that we do something because
+we like it/love it. We want to be the best at it or, more accurately, be better
+than the people in your social circle. This has become even more acute with the
+free time we have due to the pandemic. We're don't appreciate ourselves enought
+for what we've learnt or achieved in general and especially so during this
+trying times.We tend to correlate success with happiness. Ironically, we might find success
+if we are happy, and we might be happier if we accept that an average existence
+is a mighty good existence.</description><author>Sankara</author><pubDate>Wed, 03 Mar 2021 00:00:00 -0800</pubDate></item><item><guid>https://sankara.me/digital-minimalism/</guid><link>https://sankara.me/digital-minimalism/</link><title>Summary of Digital Minimalism</title><description>Digital Minimalism: Choosing a Focused Life in a Noisy WorldHello, I'm Sankara and I'm a social media and smartphone addict :). Social
+media and smartphone are not always recognized as an addiction, at least not
+clinically but the result is the same. They consume so much of our time and
+influence our mood that at times we could fall behind on the things that
+really matter. Even when I read the book I wasn't fully bought into the
+philosophy of it. I mean I struggle with a lot of what the author had to say. I
+even agree with and have personally seen the way my personal and professional
+life is impacted by unchecked social media usage and even quit various social
+media platforms as a result. However, I never fully took charge of my digital
+life. The whole COVID situation only made it worse. This weekend (August 2020)
+is when I finally decided to full on and minimize my phone usage to a minimum.
+I'm not quitting everything in rage. I'd still stay connected. However, I'd
+be making a clear plan on what I want to use, why and how much and stick to it.Why is too much digital exposure bad?</description><author>Sankara</author><pubDate>Sun, 23 Aug 2020 00:00:00 -0700</pubDate></item><item><guid>https://sankara.me/children-of-time/</guid><link>https://sankara.me/children-of-time/</link><title>Summary of Children of time</title><description>Children of time by Adrian Tchaikovskyhttps://www.goodreads.com/book/show/25499718-children-of-timeChildren of time is a fantastic creative novel by Adrian Tchaikovsky. Since this a summary of a thriller with a suspense
+ending, you have to stop reading right now if you don't want to be ruined by a spoiler.Spoilers!!!
+Spoilers!!!
+Spoilers!!!The novel opens with a terraforming project (Brin) in a far away world lead by Dr. Avrana Kern. The goal of the
+project is a scientific one - to investigate the possibility of giving intelligence to monkeys by introducing a virus
+that accelerates certain desirable characteristics, primarily around cognition. However, this is not well received by
+everyone. There's a lot of opposition to it in Earth. Unbeknownst to the crew of the project circling a world many light
+years away from Earth, Earth has descended into wars between factions that support terraforming and experimentation and
+those that are opposed to it. Also unknown to them is a mole within their ranks that's intent on destroying the entire
+vessel and the crew with it.</description><author>Sankara</author><pubDate>Wed, 15 Jan 2020 00:00:00 -0800</pubDate></item><item><guid>https://sankara.me/radical-acceptance/</guid><link>https://sankara.me/radical-acceptance/</link><title>Summary of Radical Acceptance</title><description>Embracing Your Life With The Heart Of A Buddha by Tara Brach1. The Trance of UnworthinessWe live our world in a trance; inherent in this trance is the belief that no matter how hard we try we are always
+falling short. This belief of unworthiness goes hand in hand with the alienation we feel from others and life. The
+belief that we are unworthy makes it difficult to trust that we are truly loved. We also assume that our physical
+sickness or emotional depression is our own fault.As you go through your day, pause occasionally to ask yourself, “This moment, do I accept myself just as I am?” Without
+judging yourself, simply become aware of how you are relating to your body, emotions, thoughts and behaviors. As the
+trance of unworthiness becomes conscious, it begins to lose its power over our lives.</description><author>Sankara</author><pubDate>Fri, 10 Jan 2020 00:00:00 -0800</pubDate></item><item><guid>https://sankara.me/why-do-this/</guid><link>https://sankara.me/why-do-this/</link><title>Why do this?</title><description>What's the motivation behind this blog?Like all ideas that are worthwhile, it came to me out of nowhere that I don't seem
+to remember most of the things I read from a book. What's the point of
+reading a book if we don't seem to be able to recall anything from it
+by the time we reach the end of it? I realized I need a mechanism to
+recollect and be able to reference. I already keep highlights and notes on Kindle.
+So, why not try to distill them into an essay (or a collection of notes).
+This is just an attempt at it.(Of course I also wanted to do this in Clojure and started building
+my own blog engine to generate html from markdown and hosting it - Cryogen
+had already solved it for me.)</description><author>Sankara</author><pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate></item></channel></rss>
