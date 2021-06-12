@@ -5,11 +5,13 @@
 
 Hello,
 
-Welcome to my book summaries. This is shamelessly for me and me only.
-The goal is to summarise key learnings of the books I read.
+This is an entirely static blog generated from markdown and themed using 
+[cryogen](https://cryogenweb.org/) (a clojure based static site generated). I 
+use a 
+git hook to generate the site and use 
+[Digital Ocean](https://digitalocean.com/)'s new 
+[Apps Platform](https://www.digitalocean.com/products/app-platform/) to host 
+it and serve it via CloudFlare for added complexity.
 
-``` clojure
-(if useful?
-   :great
-   :kindly-move-on)
-```
+As to who I am, since this is not a widely publicised blog I'm sure you know 
+that already. If not, checkout my [github](https://github.com/sankara)
