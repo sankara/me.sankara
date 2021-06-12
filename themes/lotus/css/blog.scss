@@ -210,7 +210,10 @@ img {
 }
 
 #footercont {
-  color: $accent-color;
+  color: fade-out($secondary-accent-color, .4);
   text-transform: uppercase;
   font-size: 11px;
+  a {
+    color: fade-out($accent-color, .4)
+  }
 }

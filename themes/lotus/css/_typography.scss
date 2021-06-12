@@ -27,7 +27,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 
-
 p {
   padding-top: 0;
   margin: 0 auto 1em auto;
@@ -42,7 +41,7 @@ em, i {
 }
 
 h1 {
-  margin-top: 0.6875em;  /* (22px / 48px) * 1.5 */
+  margin-top: 0.6875em; /* (22px / 48px) * 1.5 */
   margin-bottom: 0.22916667em; /* (22px / 48px) * .5 */
   font-weight: $font-weight-header;
   font-family: $wide-font-family;
@@ -54,7 +53,7 @@ h1 {
   @media (max-width: $tablet-breakpoint) {
     font-size: 2.5em;
     line-height: 1.05;
-    margin-top: 0.73333334em;  /* (22px / 45px) * 1.5 */
+    margin-top: 0.73333334em; /* (22px / 45px) * 1.5 */
     margin-bottom: 0.24444445em; /* (22px / 45px) * .5 */
   }
 
@@ -122,6 +121,10 @@ h3 {
     margin-top: 1.36363637em; /* (20px / 22px) * 1.5 */
     margin-bottom: 0.45454546em; /* (20px / 22px) * .5 */
   }
+}
+
+h3, h4, h5, h6 {
+  color: $secondary-accent-color;
 }
 
 h4, h5, h6 {
@@ -196,7 +199,7 @@ blockquote .author {
 }
 
 code {
-  @if(lightness($body-bgcolor) > 50) {
+  @if (lightness($body-bgcolor) > 50) {
     background-color: darken($body-bgcolor, 5%);
   } @else {
     background-color: lighten($body-bgcolor, 5%);

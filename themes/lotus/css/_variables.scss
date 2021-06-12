@@ -17,6 +17,7 @@ $base-color: #ff4532;
 $base-font-color: #d3d1d1;
 $body-bgcolor: #000;
 $accent-color: $base-color;
+$secondary-accent-color: lighten($accent-color, 10%);
 $anchor-color: lighten(scale_color($base-color, $saturation: 10%), 10%);
 
 
