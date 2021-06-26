@@ -1,21 +1,22 @@
 (ns cryogen.server
-  (:require 
-   [clojure.string :as string]
-   [compojure.core :refer [GET defroutes]]
-   [compojure.route :as route]
-   [ring.util.response :refer [redirect file-response]]
-   [ring.util.codec :refer [url-decode]]
-   [ring.server.standalone :as ring-server]
-   [cryogen-core.watcher :refer [start-watcher! start-watcher-for-changes!]]
-   [cryogen-core.plugins :refer [load-plugins]]
-   [cryogen-core.compiler :refer [compile-assets-timed]]
-   [cryogen-core.config :refer [resolve-config]]
-   [cryogen-core.io :refer [path]]))
+  (:require
+    [clojure.string :as string]
+    [compojure.core :refer [GET defroutes]]
+    [compojure.route :as route]
+    [ring.util.response :refer [redirect file-response]]
+    [ring.util.codec :refer [url-decode]]
+    [ring.server.standalone :as ring-server]
+    [cryogen-core.watcher :refer [start-watcher! start-watcher-for-changes!]]
+    [cryogen-core.plugins :refer [load-plugins]]
+    [cryogen-core.compiler :refer [compile-assets-timed]]
+    [cryogen-core.config :refer [resolve-config]]
+    [cryogen-core.io :refer [path]]
+    [environ.core :refer [env]]))
 
 (defn init [fast?]
   (println "Init: fast compile enabled = " (boolean fast?))
   (load-plugins)
-  (compile-assets-timed)
+  (compile-assets-timed (if (env :sass-path) {:sass-path (env :sass-path)} {}))
   (let [ignored-files (-> (resolve-config) :ignored-files)]
     (run!
       #(if fast?
@@ -50,12 +51,12 @@
           (handler request)))))
 
 (defroutes routes
-  (GET "/" [] (redirect (let [config (resolve-config)]
-                          (path (:blog-prefix config)
-                                (when (= (:clean-urls config) :dirty)
-                                  "index.html")))))
-  (route/files "/")
-  (route/not-found "Page not found"))
+           (GET "/" [] (redirect (let [config (resolve-config)]
+                                   (path (:blog-prefix config)
+                                         (when (= (:clean-urls config) :dirty)
+                                           "index.html")))))
+           (route/files "/")
+           (route/not-found "Page not found"))
 
 (def handler (wrap-subdirectories routes))
 

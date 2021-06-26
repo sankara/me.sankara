@@ -15,10 +15,10 @@ jobs:
     - uses: actions/checkout@v2
     
     - run: mkdir /tmp/sass
-    - run: echo "/tmp/sass/dart_sass" >> $GITHUB_PATH
-    - run: wget -c https://github.com/sass/dart-sass/releases/download/1.35.1/dart-sass-1.35.1-macos-x64.tar.gz -O /tmp/sass.tgz
+    - run: wget -c https://github.com/sass/dart-sass/releases/download/1.35.1/dart-sass-1.35.1-linux-x64.tar.gz -O /tmp/sass.tgz
     - run: tar -xzf /tmp/sass.tgz -C /tmp/sass
+    - run: /tmp/sass/dart-sass/sass --version
     
       
     - name: Generate Static Site
-      run: lein run
+      run: lein with-profile prod run
