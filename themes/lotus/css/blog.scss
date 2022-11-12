@@ -29,8 +29,8 @@ body {
 }
 
 ::selection, ::-moz-selection {
-    background: $base-color;
-    color: $body-bgcolor;
+  background: $base-color;
+  color: $body-bgcolor;
 }
 
 a {
@@ -60,51 +60,43 @@ a {
 ================================================== */
 
 img {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 }
 
 /* ==================================================
    Sections
 ================================================== */
 
-#sidebar {
+#topbar {
   background: $base-color;
   color: $white;
 
   -webkit-overflow-scrolling: touch;
 
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: stretch;
-  min-width: 20%;
-
   @media (max-width: $mobile-breakpoint) {
     padding-bottom: $default-gutter / 2;
+    flex-flow: row wrap;
   }
 
   #logo {
-    padding: $default-gutter;
-    width: 100%;
     color: $white;
+    @media (max-width: $mobile-breakpoint) {
+      padding: $default-gutter;
+      width: 100%;
+    }
 
     .icon {
       box-shadow: 0px 0px 14px 2px rgba(255, 255, 255, 0.05);
-      display: block;
       padding: 15px;
       background: rgba(0, 0, 0, 0.2);
       height: 100px;
       width: 100px;
-      margin: 0 auto 10px;
-
-      //border-radius: 80px;
     }
 
     .text {
       color: $white;
-      width: 100%;
       font-size: 30px;
       line-height: $default-line-height;
       font-weight: 600;
@@ -112,19 +104,20 @@ img {
       text-align: center;
       text-transform: uppercase;
       text-shadow: 0px 0px 14px rgba(0, 0, 0, .5);
-
-      @media (min-width: $mobile-breakpoint) {
-        &.desktop-and-tablet-only {
-          display: table-caption; // minimizes line width
-        }
+      margin: 0 0 0 25px;
+      @media (max-width: $mobile-breakpoint) {
+        margin: 0;
       }
     }
 
     a {
       text-decoration: none;
-      display: table;
-      width: 100%;
-      caption-side: bottom;
+      display: flex;
+      align-items: center;
+
+      @media (max-width: $mobile-breakpoint) {
+        flex-flow: column nowrap;
+      }
     }
   }
 }
@@ -136,10 +129,11 @@ img {
 
   @media (min-width: $mobile-breakpoint) {
     flex: 0 1 auto;
-    padding: $default-gutter;
+    padding: 0 0 0 $default-gutter*2;
   }
   @media (max-width: $mobile-breakpoint) {
     padding: 0 $default-gutter 0 0;
+    align-self: flex-start;
   }
 
   ul {
@@ -193,7 +187,7 @@ img {
 }
 
 #main p:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 .post-header {
@@ -206,13 +200,14 @@ img {
 
 #post {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: $max-width;
 }
 
 #footercont {
   color: fade-out($secondary-accent-color, .4);
   text-transform: uppercase;
   font-size: 11px;
+
   a {
     color: fade-out($accent-color, .4)
   }
