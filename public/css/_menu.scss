@@ -1,6 +1,8 @@
 @import "variables";
 
 #menucont {
+  display: flex;
+
   #menu-checkbox {
     display: none;
   }
@@ -12,6 +14,7 @@
   .menu {
     margin: 0;
     padding: 0;
+    display: flex;
 
     li {
       width: 100%;
@@ -61,12 +64,17 @@
 }
 
 @media screen and (max-width: $mobile-breakpoint) {
-
   #menucont {
+    flex-flow: column;
+
     #menu-checkbox {
+      &:checked {
+        width: 100%;
+      }
       &:checked ~ .menu {
-        display: block;
+        display: flex;
         margin-bottom: .5em;
+        flex-flow: column;
       }
     }
 

@@ -12,10 +12,9 @@ $very-light-grey: #fbfbfb;
 $white: #fff;
 
 
-
-$base-color: #ff4532;
-$base-font-color: #d3d1d1;
-$body-bgcolor: #000;
+$base-color: #e79215;
+$base-font-color: $black;
+$body-bgcolor: $white;
 $accent-color: $base-color;
 $secondary-accent-color: lighten($accent-color, 10%);
 $anchor-color: lighten(scale_color($base-color, $saturation: 10%), 10%);
@@ -28,16 +27,15 @@ $font-weight-heavy: 600;
 $font-weight-header: 700;
 $default-font-weight: $font-weight-normal;
 
-$default-font-size: 16px;
+$default-font-size: 18px;
 $default-line-height: 1.25;
 $button-font-size: 14px;
 
 
-
-$default-font-family: 'Source Sans Pro', sans-serif;
-$wide-font-family: 'Source Serif Pro', serif;
-$mono-font-family: 'Inconsolata', monospace;
-$bq-font-family: 'Open Sans', serif;
+$default-font-family: 'Inconsolata', monospace;
+$mono-font-family: $default-font-family;
+$wide-font-family: $default-font-family;
+$bq-font-family: $default-font-family;
 
 // Borders
 $default-border-color: $base-color;
@@ -55,6 +53,7 @@ $sidebar-width: 220px;
 // $mobile-breakpoint: 480px;
 $tablet-breakpoint: 900px;
 $mobile-breakpoint: 700px;
+$max-width: 700px;
 
 // Effects
 $default-opacity: 0.85;

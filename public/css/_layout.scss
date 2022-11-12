@@ -1,36 +1,28 @@
 @import "variables";
 
 body {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: stretch;
-  justify-content: space-between;
-
   @media (max-width: $mobile-breakpoint) {
     flex-flow: column nowrap;
   }
 }
 
-#sidebar {
+#topbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
   @media (min-width: $mobile-breakpoint) {
-    flex: 0 0 auto;
-    height: 100vh;
-  }
-  @media (max-width: $mobile-breakpoint) {
-    flex: 1 0 auto;
-    width: 100vw;
+    padding: 20px;
   }
 }
 
-#sidebar-links {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: stretch;
+#logo {
+}
 
-  @media (max-width: $mobile-breakpoint) {
-    flex-flow: row nowrap;
-  }
+#navbar-links {
+  display: flex;
+  justify-content: space-between;
 }
 
 .post-header {
