@@ -45,7 +45,7 @@
       }
 
       .menu-item-text {
-        padding: $default-gutter/2 $default-gutter;
+        padding: $default-gutter/2 $default-gutter/2;
         width: 100%;
       }
     }
@@ -88,11 +88,7 @@
       opacity: $default-opacity;
 
       .icon-menu {
-        // color: currentColor;
         fill: currentColor;
-
-        // margin: 0 0 0 2px;
-        // font-size: $default-font-size * 1.2;
         height: $default-font-size;
         width: $default-font-size;
       }
