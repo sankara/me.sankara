@@ -33,12 +33,12 @@ that really tolerated me and overlooked my infractions. I'd instantly react
 emotionally to any criticism or feedback. I could almost never think on my
 feet - I distinctly remember this as a kid.
 
-```text
+> Unfortunately, those with whom you’re interacting don’t necessarily 
+> know you have ADHD—or understand its role in causing your behavior—
+> and may see you as immature, self-centered, or egotistical.
+> 
+> -- Barkley PhD, Russell A. Taking Charge of Adult ADHD
 
-Unfortunately, those with whom you’re interacting don’t necessarily 
-know you have ADHD—or understand its role in causing your behavior—
-and may see you as immature, self-centered, or egotistical.
-```
 
 The first time I heard the word ADHD was when I was ~30. And even then I
 didn't exactly connect with what I understood as ADHD -
@@ -58,12 +58,13 @@ understanding how others seem to have no issues walking up and down the stairs.
 The essence of it is that one or more
 [executive functions are underdeveloped in people with ADHD](http://www.russellbarkley.org/factsheets/ADHD_EF_and_SR.pdf)
 .
-> Barkley PhD, Russell A. Taking Charge of Adult ADHD (p. 47)
->> ADHD appears to be a combination of
->> - Poor inhibition
->> - Poor self-regulation
->> - Problems with executive functions—those mental abilities that allow us to
->> regulate our own behavior
+> ADHD appears to be a combination of
+> - Poor inhibition
+> - Poor self-regulation
+> - Problems with executive functions—those mental abilities that allow us to
+> regulate our own behavior
+> 
+> -- Barkley PhD, Russell A. Taking Charge of Adult ADHD (p. 47)
 
 It took me a few months to finally reach out to a psychiatrist and get 
 evaluated professionally. And because ADHD can't really be tested physically,
