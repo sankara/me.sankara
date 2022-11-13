@@ -1,5 +1,5 @@
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.25;
@@ -43,7 +43,7 @@ h1 {
   margin-bottom: 0.22916667em;
   /* (22px / 48px) * .5 */
   font-weight: 700;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-size: 3em;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -80,7 +80,7 @@ h2 {
   margin-bottom: 0.34375em;
   /* (22px / 32px) * .5 */
   font-weight: 700;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   letter-spacing: -0.01em;
   font-size: 2.25em;
   line-height: 1.25;
@@ -116,7 +116,7 @@ h3 {
   margin-bottom: 0.45833334em;
   /* (22px / 24px) * .5 */
   font-weight: 700;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-size: 1.75em;
   line-height: 1.25;
 }
@@ -198,9 +198,9 @@ blockquote {
   color: #555;
   border-left: 5px solid #e79215;
   padding: 0.5em;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-style: italic;
-  font-size: 1.25em;
+  font-size: 18px;
   line-height: 1.45833333;
 }
 @media (max-width: 900px) {
@@ -227,7 +227,7 @@ code {
 }
 
 code, kbd, samp {
-  font-family: "Inconsolata", monospace;
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
 }
 
 .button {
@@ -238,7 +238,7 @@ code, kbd, samp {
   padding: 7px 12px;
   margin: 0;
   width: auto;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
@@ -537,7 +537,7 @@ img {
   font-size: 30px;
   line-height: 1.25;
   font-weight: 600;
-  font-family: "Inconsolata", monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5);

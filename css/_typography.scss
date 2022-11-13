@@ -179,7 +179,7 @@ blockquote {
   font-family: $bq-font-family;
   font-style: italic;
 
-  font-size: 1.25em;
+  font-size: $default-font-size;
   line-height: 1.45833333;
 
   @media (max-width: $tablet-breakpoint) {
