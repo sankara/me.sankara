@@ -33,11 +33,11 @@ that really tolerated me and overlooked my infractions. I'd instantly react
 emotionally to any criticism or feedback. I could almost never think on my
 feet - I distinctly remember this as a kid.
 
-> Unfortunately, those with whom you’re interacting don’t necessarily 
+> Unfortunately, those with whom you’re interacting don’t necessarily
 > know you have ADHD—or understand its role in causing your behavior—
 > and may see you as immature, self-centered, or egotistical.
-> 
-> -- Barkley PhD, Russell A. Taking Charge of Adult ADHD
+>
+> <p class="author">Barkley PhD, Russell A. Taking Charge of Adult ADHD</p>
 
 
 The first time I heard the word ADHD was when I was ~30. And even then I
@@ -62,16 +62,17 @@ The essence of it is that one or more
 > - Poor inhibition
 > - Poor self-regulation
 > - Problems with executive functions—those mental abilities that allow us to
-> regulate our own behavior
-> 
-> -- Barkley PhD, Russell A. Taking Charge of Adult ADHD (p. 47)
+    regulate our own behavior
+>
+>
+> <p class="author">Barkley PhD, Russell A. Taking Charge of Adult ADHD (p.47)</p>
 
-It took me a few months to finally reach out to a psychiatrist and get 
+It took me a few months to finally reach out to a psychiatrist and get
 evaluated professionally. And because ADHD can't really be tested physically,
-I still continue to doubt I have ADHD. Every time I go back and read the 
-symptoms listed in the above-mentioned book and my notes and highlights from 
-it I tell myself to take it seriously and seek help. That's what I finally 
-did last week. I'm writing this down mostly to remind myself that it's not 
-all in my head and there's nothing wrong in getting treated for it. One can 
+I still continue to doubt I have ADHD. Every time I go back and read the
+symptoms listed in the above-mentioned book and my notes and highlights from
+it I tell myself to take it seriously and seek help. That's what I finally
+did last week. I'm writing this down mostly to remind myself that it's not
+all in my head and there's nothing wrong in getting treated for it. One can
 only hope at my age that I'd at least have a semi-normal life going forward.
  
