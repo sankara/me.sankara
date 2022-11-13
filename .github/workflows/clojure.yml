@@ -26,4 +26,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          repository-name: sankara/sankara.github.io
           folder: public
