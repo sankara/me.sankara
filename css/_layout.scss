@@ -9,15 +9,15 @@ body {
 #topbar {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   @media (min-width: $mobile-breakpoint) {
     padding: 20px;
+    nav {
+      flex: 0;
+    }
   }
-}
-
-#logo {
 }
 
 #navbar-links {
