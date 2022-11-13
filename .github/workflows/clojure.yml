@@ -26,5 +26,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          token: ${{ secrets.NGITHUB_DEPLOY_TOKEN }}
           repository-name: sankara/sankara.github.io
           folder: public
