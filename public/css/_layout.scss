@@ -65,7 +65,7 @@ body {
     align-items: center;
     flex-flow: row nowrap;
 
-    flex: 1 1 50%;
+    flex: 1 1 auto;
     fill: currentColor;
     text-decoration: none;
 
@@ -79,7 +79,14 @@ body {
       flex: 1 1 0;
       margin-left: 1em;
       margin-right: 1em;
-      text-align: center;
     }
+  }
+
+  .prev .nav-text {
+    text-align: left;
+  }
+
+  .next .nav-text {
+    text-align: right;
   }
 }

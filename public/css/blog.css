@@ -293,7 +293,7 @@ code, kbd, samp {
   font-weight: 600;
 }
 #menucont .menu li .menu-item-text {
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: 100%;
 }
 
@@ -425,7 +425,7 @@ code, kbd, samp {
   display: flex;
   align-items: center;
   flex-flow: row nowrap;
-  flex: 1 1 50%;
+  flex: 1 1 auto;
   fill: currentColor;
   text-decoration: none;
 }
@@ -438,7 +438,12 @@ code, kbd, samp {
   flex: 1 1 0;
   margin-left: 1em;
   margin-right: 1em;
-  text-align: center;
+}
+#prev-next .prev .nav-text {
+  text-align: left;
+}
+#prev-next .next .nav-text {
+  text-align: right;
 }
 
 /* ==================================================
@@ -592,6 +597,7 @@ img {
   }
 }
 #socialmedia ul .icon {
+  padding: 0 3px;
   fill: #fff;
   max-height: 100%;
   max-width: 100%;
