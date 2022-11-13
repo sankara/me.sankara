@@ -1,4 +1,4 @@
-name: Clojure CI
+name: Cryogen Build & Deploy to GitHub Pages
 
 on:
   push:
@@ -12,42 +12,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    
-    - run: mkdir /tmp/sass
-    - run: wget -c https://github.com/sass/dart-sass/releases/download/1.35.1/dart-sass-1.35.1-linux-x64.tar.gz -O /tmp/sass.tgz
-    - run: tar -xzf /tmp/sass.tgz -C /tmp/sass
-    - run: /tmp/sass/dart-sass/sass --version
-    
-      
-    - name: Generate Static Site
-      run: lein with-profile prod run
+      - uses: actions/checkout@v2
 
-    - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
-      with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        add: 'public'
+      - run: mkdir /tmp/sass
+      - run: wget -c https://github.com/sass/dart-sass/releases/download/1.35.1/dart-sass-1.35.1-linux-x64.tar.gz -O /tmp/sass.tgz
+      - run: tar -xzf /tmp/sass.tgz -C /tmp/sass
+      - run: /tmp/sass/dart-sass/sass --version
 
-        # Determines the way the action fills missing author name and email. Three options are available:
-        # - github_actor -> UserName <UserName@users.noreply.github.com>
-        # - user_info -> Your Display Name <your-actual@email.com>
-        # - github_actions -> github-actions <email associated with the github logo>
-        # Default:
-        default_author: github_actor
 
-        # The message for the commit
-        # Default: 'Commit from GitHub Actions (name of the workflow)'
-        message: 'Generating static site'
+      - name: Generate Static Site
+        run: lein with-profile prod run
 
-        # The flag used on the pull strategy. Use NO-PULL to avoid the action pulling at all.
-        # Default: '--no-rebase'
-        pull_strategy: 'NO-PULL'
-
-        # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
-        # Default: true
-        push: true
-
-        # Whether to use the --signoff option on `git commit` (only boolean values accepted*)
-        # Default: false
-        signoff: true
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
