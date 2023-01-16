@@ -30,7 +30,7 @@ body {
     margin-top: 0;
   }
 
-  .byline {
+  .author {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.375rem;
@@ -43,6 +43,7 @@ body {
       margin-bottom: 1.25rem;
     }
   }
+  margin-bottom: 10px;
 }
 
 #main {

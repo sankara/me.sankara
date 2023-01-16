@@ -1,8 +1,9 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   vertical-align: baseline;
 }
@@ -12,15 +13,13 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 #main {
-  font-size: 18px;
-  /* equivalent to 16px */
-  line-height: 1.25;
-  /* equivalent to 20px */
+  font-size: 19px;
+  line-height: 400;
 }
 @media (min-width: 900px) {
   #main {
     font-size: 1em;
-    line-height: 1.375;
+    line-height: 1.6;
   }
 }
 
@@ -44,9 +43,7 @@ h1 {
   /* (22px / 48px) * .5 */
   font-weight: 700;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
-  font-size: 3em;
-  line-height: 1.05;
-  letter-spacing: -0.01em;
+  font-size: 2.5em;
   color: #e79215;
 }
 @media (max-width: 900px) {
@@ -183,7 +180,7 @@ hr {
   clear: both;
   width: 100%;
   padding: 0;
-  margin: 45px 0;
+  margin: 60.8px 0;
   border: none;
   border-top: 2px solid #e79215;
   border-bottom: 2px solid #e79215;
@@ -192,7 +189,7 @@ hr {
 }
 
 blockquote {
-  background: #f2f2f2;
+  background: #00070d;
   margin: 1em 0;
   /* (20px / 20px) */
   color: #555;
@@ -200,7 +197,7 @@ blockquote {
   padding: 0.5em;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.45833333;
 }
 @media (max-width: 900px) {
@@ -221,13 +218,18 @@ blockquote .author {
 }
 
 code {
-  background-color: #f2f2f2;
+  background-color: #002140;
   border-radius: 2px;
   padding: 1px 3px;
 }
 
 code, kbd, samp {
   font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+.post-header .author {
+  font-size: 22px;
+  font-style: italic;
 }
 
 .button {
@@ -239,7 +241,7 @@ code, kbd, samp {
   margin: 0;
   width: auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   text-transform: uppercase;
   cursor: pointer;
   text-align: left;
@@ -327,12 +329,12 @@ code, kbd, samp {
   }
   #menucont .menutitle .icon-menu {
     fill: currentColor;
-    height: 18px;
-    width: 18px;
+    height: 19px;
+    width: 19px;
   }
   #menucont .menutitle .menu-text {
     margin: 0 0 0 0.8em;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
     letter-spacing: 2px;
     line-height: 1;
@@ -389,21 +391,24 @@ code, kbd, samp {
   justify-content: space-between;
 }
 
+.post-header {
+  margin-bottom: 10px;
+}
 .post-header h1 {
   margin-top: 0;
 }
-.post-header .byline {
+.post-header .author {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.375rem;
 }
 @media (max-width: 900px) {
-  .post-header .byline {
+  .post-header .author {
     margin-bottom: 1.375rem;
   }
 }
 @media (max-width: 700px) {
-  .post-header .byline {
+  .post-header .author {
     margin-bottom: 1.25rem;
   }
 }
@@ -466,13 +471,13 @@ code, kbd, samp {
 }
 
 body {
-  background: #fff;
-  color: #000;
+  background: #001426;
+  color: #fff;
 }
 
 ::selection, ::-moz-selection {
   background: #e79215;
-  color: #fff;
+  color: #001426;
 }
 
 a {
@@ -509,7 +514,7 @@ img {
    Sections
 ================================================== */
 #topbar {
-  background: #e79215;
+  background: #001426;
   color: #fff;
   -webkit-overflow-scrolling: touch;
 }
@@ -538,7 +543,7 @@ img {
 #topbar #logo .text {
   color: #fff;
   font-size: 25px;
-  line-height: 1.25;
+  line-height: 1.6;
   font-weight: 600;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
   text-align: center;
@@ -631,7 +636,7 @@ img {
 
 #post {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
 }
 
 #footercont {
