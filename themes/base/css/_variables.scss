@@ -13,8 +13,9 @@ $white: #fff;
 
 
 $base-color: #e79215;
-$base-font-color: $black;
-$body-bgcolor: $white;
+$base-font-color: $white;
+$body-bgcolor: rgb(0, 20, 38);
+$secondary-bgcolor: $body-bgcolor;
 $accent-color: $base-color;
 $secondary-accent-color: lighten($accent-color, 10%);
 $anchor-color: lighten(scale_color($base-color, $saturation: 10%), 10%);
@@ -27,9 +28,11 @@ $font-weight-heavy: 600;
 $font-weight-header: 700;
 $default-font-weight: $font-weight-normal;
 
-$default-font-size: 18px;
-$default-line-height: 1.25;
-$button-font-size: 14px;
+$default-font-size: 19px;
+$default-letter-spacing: 0.02rem;
+$default-line-height: 1.6;
+$button-font-size: 19px;
+$medium-font-size: 22px;
 
 
 $default-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
@@ -54,7 +57,7 @@ $sidebar-width: 220px;
 // $mobile-breakpoint: 480px;
 $tablet-breakpoint: 900px;
 $mobile-breakpoint: 700px;
-$max-width: 700px;
+$max-width: 900px;
 
 // Effects
 $default-opacity: 0.85;

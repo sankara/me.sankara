@@ -5,6 +5,7 @@ body {
   font-size: $default-font-size;
   font-weight: $default-font-weight;
   line-height: $default-line-height;
+  -webkit-font-smoothing: antialiased;
 
   text-rendering: optimizeLegibility;
   vertical-align: baseline;
@@ -16,13 +17,11 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 
 #main {
   font-size: $default-font-size;
-  /* equivalent to 16px */
-  line-height: 1.25;
-  /* equivalent to 20px */
+  line-height: $default-font-weight;
 
   @media (min-width: $tablet-breakpoint) {
     font-size: 1em;
-    line-height: 1.375;
+    line-height: $default-line-height;
   }
 }
 
@@ -45,9 +44,7 @@ h1 {
   margin-bottom: 0.22916667em; /* (22px / 48px) * .5 */
   font-weight: $font-weight-header;
   font-family: $wide-font-family;
-  font-size: 3em;
-  line-height: 1.05;
-  letter-spacing: -.01em;
+  font-size: 2.5em;
   color: $accent-color;
 
   @media (max-width: $tablet-breakpoint) {
@@ -211,4 +208,11 @@ code {
 
 code, kbd, samp {
   font-family: $mono-font-family;
+}
+
+.post-header {
+  .author {
+    font-size: $medium-font-size;
+    font-style: italic;
+  }
 }

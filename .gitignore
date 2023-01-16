@@ -10,8 +10,8 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .lein-env
-/themes/lotus/css/blog.css
-/themes/lotus/css/blog.css.map
+/themes/base/css/blog.css
+/themes/base/css/blog.css.map
 .cpcache/
 .idea/
 public/

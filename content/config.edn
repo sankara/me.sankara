@@ -18,7 +18,7 @@
  :sass-src             []
  :sass-path            "sass"
  :compass-path         "compass"
- :theme                "lotus"
+ :theme                "base"
  :resources            ["CNAME" "img"]
  :keep-files           [".git"]
  :disqus?              false
