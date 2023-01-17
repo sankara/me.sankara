@@ -14,7 +14,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 
 #main {
   font-size: 19px;
-  line-height: 400;
+  line-height: 1.6;
 }
 @media (min-width: 900px) {
   #main {
