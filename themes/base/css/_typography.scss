@@ -17,7 +17,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 
 #main {
   font-size: $default-font-size;
-  line-height: $default-font-weight;
+  line-height: $default-line-height;
 
   @media (min-width: $tablet-breakpoint) {
     font-size: 1em;
