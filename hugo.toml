@@ -1,7 +1,55 @@
 baseURL = 'https://sankara.me/'
-languageCode = 'en-us'
 title = 'Sankara.me'
 theme = "rusty-typewriter"
+languageCode = 'en-us'
+
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+# rtwt = Rusty Typewriter Theme
+[params.rtwt.home]
+showBio = false
+enableRobotsTXT = true
+
+[params.rtwt.side.home]
+taxonomies = ['tags']
+countTaxonomy = 100
+
+[taxonomies]
+tag = 'tags'
+topic = 'topics'
+series = 'series'
+
+[params.author]
+name = 'Sankara'
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 1
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about.md'
+weight = 3
+
+# build search index ================
+[outputFormats]
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[mediaTypes]
+[mediaTypes."application/json"]
+suffixes = ["json"]
+
+[outputs]
+home = ["html", "rss", "SearchIndex"]
+# ===================================
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true

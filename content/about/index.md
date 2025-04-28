@@ -1,5 +1,4 @@
 +++
-menus = 'main'
 title = "About"
 date = "2025-04-27"
 +++
