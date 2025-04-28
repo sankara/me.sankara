@@ -1,0 +1,4 @@
+baseURL = 'https://sankara.me/'
+languageCode = 'en-us'
+title = 'Sankara.me'
+theme = "rusty-typewriter"
