@@ -19,7 +19,7 @@
     --secondary-accent-color: rgb(from var(--accent-color) calc(r - 20) g calc(b + 50));
 
     --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
+    --entry: var(--theme);
     --primary: var(--accent-color);
     --secondary: var(--secondary-accent-color);
     --tertiary: rgb(214, 214, 214);
@@ -30,13 +30,14 @@
 
     --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
     --mono-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+    --font-size: 16px;
 }
 
 .dark {
     --dark-opacity: 0.87;
     --dark-font-opacity: 0.70;
     --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
+    --entry: var(--theme);
     --primary: rgba(from var(--accent-color) r g b / var(--dark-opacity));
     --secondary: rgba(from var(--secondary-accent-color) r g b / var(--dark-opacity));
     --tertiary: rgb(65, 66, 68);
@@ -65,5 +66,11 @@ body {
         color: var(--content) !important;
         line-clamp: unset !important;
         -webkit-line-clamp: unset !important;
+        font-size: var(--font-size) !important;
+    }
+
+    .post-entry, .first-entry {
+        border: 0 !important;
+        padding: 10px !important;
     }
 }
