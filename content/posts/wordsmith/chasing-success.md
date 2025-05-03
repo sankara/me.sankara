@@ -5,10 +5,10 @@ tags = ["blog", "personal", "wordsmith"]
 author = "Sankara"
 +++
 
-Human brain has evolved to being lazy [\[1\]](#ref1). It's the natural state of
-things. It is also more likely than not you're average - it's the very
+The Human brain has evolved to being lazy [\[1\]](#ref1). It's the natural state of
+things. It is also more likely than not that you're average—it's the very
 definition of it. In our society, neither of this is adequate.
-
+<!--more-->
 Personally, there's a huge correlation between the rise of social media and the
 feeling of inadequacy. Are you adequate in life? Are you married? Do you have a
 wife? Do you own a home? Do you have kids? Are you a good parent to your kids?
@@ -21,8 +21,8 @@ keeping yourself up to date with technology?
 We have become this society where it's not enough that we do something because
 we like it/love it. We want to be the best at it or, more accurately, be better
 than the people in your social circle. This has become even more acute with the
-free time we have due to the pandemic. We're don't appreciate ourselves enought
-for what we've learnt or achieved in general and especially so during this
+free time we have due to the pandemic. We don't appreciate ourselves enought
+for what we've learnt or achieved in general and especially so during these
 trying times.
 
 We tend to correlate success with happiness. Ironically, we might find success

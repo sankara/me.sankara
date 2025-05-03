@@ -12,6 +12,7 @@ since I did anything similar. The choice of what to plant was almost a lottery
 pick. Maybe next time I'll learn to identify what makes sense to grow and what
 to buy instead. Here are the first sprouts of some of them.
 
+<!--more-->
 ### Carrots
 
 ![Carrots](/posts/gardening/starting-gardening/carrot.jpg)

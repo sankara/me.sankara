@@ -1,0 +1,69 @@
+/*$base-color: #e79215;*/
+/*$base-font-color: $white;*/
+/*$body-bgcolor: rgb(0, 20, 38);*/
+/*$secondary-bgcolor: $body-bgcolor;*/
+/*$accent-color: $base-color;*/
+/*$secondary-accent-color: lighten($accent-color, 10%);*/
+/*$anchor-color: lighten(scale_color($base-color, $saturation: 10%), 10%);*/
+
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+
+    --accent-color: rgb(230, 100, 25);
+    --secondary-accent-color: rgb(from var(--accent-color) calc(r - 20) g calc(b + 50));
+
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: var(--accent-color);
+    --secondary: var(--secondary-accent-color);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --code-block-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238);
+
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Ubuntu", "Roboto", "Noto Sans", "Droid Sans", sans-serif;
+    --mono-font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+.dark {
+    --dark-opacity: 0.87;
+    --dark-font-opacity: 0.70;
+    --theme: rgb(29, 30, 32);
+    --entry: rgb(46, 46, 51);
+    --primary: rgba(from var(--accent-color) r g b / var(--dark-opacity));
+    --secondary: rgba(from var(--secondary-accent-color) r g b / var(--dark-opacity));
+    --tertiary: rgb(65, 66, 68);
+    --content: rgba(from white r g b / var(--dark-font-opacity));
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}
+
+body {
+    font-family: var(--font-family), serif !important;
+
+    &.list {
+        background-color: var(--theme) !important;
+    }
+
+    .entry-content {
+        color: var(--content) !important;
+        line-clamp: unset !important;
+        -webkit-line-clamp: unset !important;
+    }
+}

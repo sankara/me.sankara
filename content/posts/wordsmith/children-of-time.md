@@ -11,7 +11,7 @@ author = "Sankara"
 
 Children of time is a fantastic creative novel by Adrian Tchaikovsky. Since this a summary of a thriller with a suspense
 ending, you have to stop reading right now if you don't want to be ruined by a spoiler.
-
+<!--more-->
 > Spoilers!!!
 > Spoilers!!!
 > Spoilers!!!

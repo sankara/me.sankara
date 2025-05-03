@@ -20,9 +20,11 @@ well in school. Although, I still remember the look on my Principal's face when
 I told him I got into a decent college. Every one of my teachers thought I had
 the "potential" to shine if only I put in my effort.
 
+<!--more-->
+
 On the personal and relationships front, I would also say whatever comes to
 mind without a filter. Since I could never hold a thought for more than a few
-seconds, I'd blurt it out in fear that I'll forget it - only for it to come
+seconds, I'd blurt it out in fear that I'll forget it—only for it to come
 across as cutting off someone and being rude. I could also never get social cues
 as well as others. I almost faced disciplinary action at work as a result of
 something I blurted out. I have missed out on so many dating opportunities

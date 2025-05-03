@@ -23,6 +23,7 @@ net. [This nifty hoops from Amazon](https://www.amazon.com/gp/product/B08VGRGTM3
 provided a decent frame, and it was extensible. It also doubled as the 
 supporting frame for the irrigation lines.
 
+<!--more-->
 Here's what it looks like:
 
 ![Raised Bed Irrigation Hoops](/posts/gardening/setting-up-irrigation/irrigation-and-net.gif)

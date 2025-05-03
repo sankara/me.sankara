@@ -21,9 +21,6 @@ tag = 'tags'
 topic = 'topics'
 series = 'series'
 
-[params.author]
-name = 'Sankara'
-
 [[menus.main]]
 name = 'Posts'
 pageRef = '/posts'
