@@ -1,6 +1,6 @@
 baseURL = 'https://sankara.me/'
 title = 'Sankara.me'
-theme = "rusty-typewriter"
+theme = ["PaperMod"]
 languageCode = 'en-us'
 
 [caches]
