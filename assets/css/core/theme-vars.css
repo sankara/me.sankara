@@ -8,14 +8,14 @@
 
 :root {
     --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
+    --content-gap: 24px;
+    --nav-width: 720px;
     --main-width: 720px;
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
 
-    --accent-color: rgb(230, 100, 25);
+    --accent-color: rgb(215, 80, 0);
     --secondary-accent-color: rgb(from var(--accent-color) calc(r - 20) g calc(b + 50));
 
     --theme: rgb(255, 255, 255);
@@ -71,6 +71,6 @@ body {
 
     .post-entry, .first-entry {
         border: 0 !important;
-        padding: 10px !important;
+        padding: 10px 0 !important;
     }
 }

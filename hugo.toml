@@ -1,7 +1,8 @@
 baseURL = 'https://sankara.me/'
-title = 'Sankara.me'
+title = "Sankara's Blog"
 theme = ["PaperMod"]
 languageCode = 'en-us'
+description = "Just a regular old blog"
 
 [caches]
 [caches.images]
