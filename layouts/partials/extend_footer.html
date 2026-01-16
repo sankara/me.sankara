@@ -1,0 +1,56 @@
+<!-- Extended footer for modern, accessible design -->
+
+<style>
+    .footer-content {
+        max-width: var(--main-width);
+        margin: 0 auto;
+        padding: 0 var(--gap);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+
+    .footer-links a {
+        color: var(--content-secondary);
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+        color: var(--accent-color);
+    }
+
+    .footer-copyright {
+        color: var(--content-secondary);
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+        .footer-links {
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+    }
+</style>
+
+<div class="footer-content">
+    <div class="footer-links">
+        <a href="/posts" aria-label="View all blog posts">Posts</a>
+        <a href="/about" aria-label="Learn more about Sankara">About</a>
+        <a href="/index.xml" aria-label="Subscribe via RSS feed">RSS Feed</a>
+    </div>
+    <div class="footer-copyright">
+        <p>© {{ now.Year }} Sankara's Blog. All rights reserved.</p>
+    </div>
+</div>
