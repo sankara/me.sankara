@@ -1,0 +1,34 @@
+<script>
+// Theme toggle
+(function() {
+    const toggle = document.getElementById('theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function getTheme() {
+        const stored = localStorage.getItem('theme');
+        if (stored) return stored;
+        return prefersDark.matches ? 'dark' : 'light';
+    }
+
+    function setTheme(theme) {
+        document.documentElement.classList.toggle('dark', theme === 'dark');
+        localStorage.setItem('theme', theme);
+    }
+
+    // Set initial theme
+    setTheme(getTheme());
+
+    // Toggle on click
+    toggle.addEventListener('click', () => {
+        const current = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+        setTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // Listen for system preference changes
+    prefersDark.addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+            setTheme(e.matches ? 'dark' : 'light');
+        }
+    });
+})();
+</script>
