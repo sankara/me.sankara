@@ -16,3 +16,10 @@ hugo.linux
 *.iml
 *.ipr
 *.iws
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Accessibility test artifacts
+pa11y-screenshots/

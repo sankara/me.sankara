@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 10000,
+    "wait": 500,
+    "runners": ["axe", "htmlcs"]
+  },
+  "urls": [
+    {
+      "url": "http://localhost:1313/",
+      "screenCapture": "./pa11y-screenshots/home.png"
+    },
+    {
+      "url": "http://localhost:1313/posts/",
+      "screenCapture": "./pa11y-screenshots/posts.png"
+    },
+    {
+      "url": "http://localhost:1313/about/",
+      "screenCapture": "./pa11y-screenshots/about.png"
+    }
+  ]
+}

@@ -1,21 +1,11 @@
 baseURL = 'https://sankara.me/'
 title = "Sankara's Blog"
-theme = ["PaperMod"]
+theme = "sankara"
 languageCode = 'en-us'
 description = "Thoughts on life, technology, and everything in between"
 
-[caches]
-[caches.images]
-dir = ':cacheDir/images'
-
-# rtwt = Rusty Typewriter Theme
-[params.rtwt.home]
-showBio = false
-enableRobotsTXT = true
-
-[params.rtwt.side.home]
-taxonomies = ['tags']
-countTaxonomy = 100
+[params]
+author = "Sankara"
 
 [taxonomies]
 tag = 'tags'
@@ -29,25 +19,15 @@ weight = 1
 
 [[menus.main]]
 name = 'About'
-pageRef = '/about.md'
-weight = 3
-
-# build search index ================
-[outputFormats]
-[outputFormats.SearchIndex]
-mediaType = "application/json"
-baseName = "searchindex"
-isPlainText = true
-notAlternative = true
-
-[mediaTypes]
-[mediaTypes."application/json"]
-suffixes = ["json"]
+pageRef = '/about'
+weight = 2
 
 [outputs]
-home = ["html", "rss", "SearchIndex"]
-# ===================================
+home = ["html", "rss"]
 
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.highlight]
+noClasses = false

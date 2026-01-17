@@ -1,0 +1,12 @@
+name = "Sankara"
+license = "MIT"
+licenselink = "https://github.com/sankara/me.sankara/blob/main/LICENSE"
+description = "A minimal, accessible Hugo theme"
+homepage = "https://sankara.me"
+tags = ["minimal", "accessible", "blog", "responsive"]
+features = ["dark mode", "responsive", "accessible"]
+min_version = "0.112.0"
+
+[author]
+  name = "Sankara"
+  homepage = "https://sankara.me"
