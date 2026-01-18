@@ -5,7 +5,7 @@ tags = ["blog", "personal", "wordsmith"]
 author = "Sankara"
 +++
 
-The Human brain has evolved to being lazy [\[1\]](#ref1). It's the natural state of
+The Human brain has evolved to being lazy [\[1\]](/posts/wordsmith/chasing-success/#ref1). It's the natural state of
 things. It is also more likely than not that you're average—it's the very
 definition of it. In our society, neither of this is adequate.
 <!--more-->
@@ -31,9 +31,8 @@ is a mighty good existence_.
 
 --------
 
-<a name="ref1"></a>
-[1] Boris Cheval, Eda Tipura, Nicolas Burra, Jaromil Frossard, Julien Chanal,
+<p id="ref1">[1] Boris Cheval, Eda Tipura, Nicolas Burra, Jaromil Frossard, Julien Chanal,
 Dan Orsholits, Rémi Radel, Matthieu P. Boisgontier. Avoiding sedentary behaviors
 requires more cortical resources than avoiding physical activity: An EEG study.
 Neuropsychologia, 2018; 119: 68
-DOI: [10.1016/j.neuropsychologia.2018.07.029](http://dx.doi.org/10.1016/j.neuropsychologia.2018.07.029)
+DOI: [10.1016/j.neuropsychologia.2018.07.029](http://dx.doi.org/10.1016/j.neuropsychologia.2018.07.029)</p>
