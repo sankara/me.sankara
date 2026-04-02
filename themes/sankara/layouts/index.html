@@ -31,6 +31,8 @@
                 {{ with .Summary }}
                 <p class="post-summary">{{ . }}</p>
                 {{ end }}
+
+                <a href="{{ .Permalink }}" class="read-more">Read more &rarr;</a>
             </article>
             {{ end }}
         </div>
