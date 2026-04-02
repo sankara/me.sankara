@@ -336,7 +336,7 @@ a:focus-visible {
 }
 
 .section-title::before {
-    content: "\270E\00a0";
+    content: "\2318\00a0";
 }
 
 .view-all {
