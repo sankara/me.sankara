@@ -30,10 +30,10 @@
     --accent-secondary: #2A9D8F;
 
     /* Typography */
-    --font: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
     --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
-    --font-size: 16px;
+    --font-size: 18px;
     --line-height: 1.7;
 }
 
@@ -194,7 +194,6 @@ a:focus-visible {
     font-weight: 700;
     font-size: 1.35rem;
     color: #ffffff;
-    font-style: italic;
 }
 
 .logo:hover {
@@ -319,7 +318,6 @@ a:focus-visible {
 .intro h1 {
     margin-bottom: var(--space-4);
     color: var(--accent);
-    font-style: italic;
 }
 
 .intro .subtitle {
@@ -333,6 +331,10 @@ a:focus-visible {
     padding-bottom: var(--space-4);
     border-bottom: 3px solid var(--accent);
     display: inline-block;
+}
+
+.section-title::before {
+    content: "\2318\00a0";
 }
 
 .section-title::before {
@@ -380,9 +382,10 @@ a:focus-visible {
     margin-bottom: var(--space-2);
 }
 
-.post-entry h2,
-.post-entry h3 {
-    font-style: italic;
+.post-entry h2::before,
+.post-entry h3::before {
+    content: "\2318\00a0";
+    color: var(--accent-secondary);
 }
 
 .post-entry h2 a,
@@ -446,8 +449,12 @@ a:focus-visible {
 
 .post-title {
     margin-bottom: var(--space-4);
-    font-style: italic;
     color: var(--accent);
+}
+
+.post-title::before {
+    content: "\2318\00a0";
+    color: var(--accent-secondary);
 }
 
 .post-header .post-tags {
@@ -647,7 +654,7 @@ a:focus-visible {
    ============================================ */
 @media (max-width: 640px) {
     :root {
-        --font-size: 15px;
+        --font-size: 17px;
     }
 
     h1 { font-size: 1.875rem; }
