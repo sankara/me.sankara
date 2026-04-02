@@ -27,6 +27,8 @@
             <p class="post-summary">{{ . }}</p>
             {{ end }}
 
+            <a href="{{ .Permalink }}" class="read-more">Read more &rarr;</a>
+
             {{ with .Params.tags }}
             <div class="post-tags">
                 {{ range first 3 . }}
