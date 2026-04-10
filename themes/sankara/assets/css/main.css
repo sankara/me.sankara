@@ -465,6 +465,16 @@ a:focus-visible {
     font-size: 1.0625rem;
 }
 
+.post-content h1 {
+    font-size: 1.875rem;
+    margin-top: var(--space-12);
+    margin-bottom: var(--space-4);
+}
+
+.post-content h1::before {
+    content: none;
+}
+
 .post-content h2 {
     margin-top: var(--space-12);
     margin-bottom: var(--space-4);
